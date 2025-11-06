@@ -1,1 +1,9 @@
-# IBI318_len_clinical_trial
+# PD-1/ PD-L1 Bispecific Antibody IBI318 Combined with Lenvatinib in Advanced Non-Small Cell Lung Cancer with Acquired Resistance to Immune Checkpoint Inhibitors: A Phase II Trial
+
+Abstract
+
+Immune checkpoint inhibitors (ICIs) have improved survival in advanced non-small cell lung cancer (NSCLC), but resistance commonly develops. This phase II, open-label, single-arm trial (ClinicalTrial.gov: NCT04777084) evaluated the efficacy and safety of IBI318 (a bispecific anti-PD-1/PD-L1 antibody, 300 mg intravenous every 2 weeks) plus lenvatinib (a receptor tyrosine kinase inhibitor, 8 mg orally dail) in patients with advanced NSCLC who developed acquired resistance to first-line ICI treatment. Forty patients were enrolled and received at least 1 cycle of the study regimen. At a median follow-up of 23.9 months, the primary endpoint of 12-week objective response rate was 40.0% (95% CI: 24.9–56.7), meeting prespecified efficacy threshold. Median progression-free survival and overall survival were 6.9 months (95% CI: 4.8–9.5) and 18.2 months (95% CI: 10.7–29.1), respectively. Top four treatment-related adverse events were increased blood thyroid-stimulating hormone (n=11), increased bilirubin (n=8), infusion reaction (n=8), and fatigue (n=8). Grade ≥3 adverse events occurred in 12.5% (5/40) of patients. We developed a single-cell proportion–based XGBoost model (scPro-X) using scRNA-seq data to predict the 12-week ORR in patients, and identified CD4_Tfh_CXCL13 and CD8_Tex_CTLA4 as potential biomarkers of response to IBI318 and lenvatinib. These findings demonstrate that IBI318 plus lenvatinib achieves promising clinical activity and a manageable safety profile in patients with advanced NSCLC, warranting further investigation and biomarker-driven patient selection strategies.
+
+Note: 
+1) All necessary analytical data have been deposited in the GSA database and uploaded as source data with the manuscript.
+2) For any questions, please contact: ruanzh5167@outlook.com
