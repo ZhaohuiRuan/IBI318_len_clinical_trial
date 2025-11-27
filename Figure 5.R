@@ -5,7 +5,7 @@ library(Seurat)
 library(pROC)
 library(openxlsx)
 ###--- 1. Data loading
-load('results_xgb_model_0912.RData')
+load('data_xgb_model.RData')
 dtrain <- xgb.DMatrix("IBI318_len_scRNA_seq_dtrain.buffer")
 dtrain2 <- xgb.DMatrix("IBI318_len_scRNA_seq_dtrain_PD_L1.buffer")
 ###--- 2. XGBoost model based on single-cell RNA-seq data
@@ -96,3 +96,4 @@ p2 <- ggplot(shape_value_summary,aes(y = factor(variable %>% as.character(),
 pdf('Figure 5C.pdf',height = 7,width = 7)
 cowplot::plot_grid(p,p2,align = 'hv',rel_widths = c(1,0.8))
 dev.off()
+
